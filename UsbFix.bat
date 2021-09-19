@@ -1,7 +1,6 @@
 ::Made by Brawldude2. ;)
 
 @echo off
-set randomfilename = "DRGHUF"
 
 SET /p drive="Enter the removable drive letter:"
 CD /D "%drive%:\"
@@ -16,7 +15,7 @@ exit
 	del *.lnk
 	echo "Deleting shortcut files."
 	set thereis=0
-	for /d %%f in (*) do (echo "%%~nf"|findstr /r "\<.\>"&&ren "%%f" "DRGHUF"&& set thereis=1)
+	for /d %%f in (*) do (echo "%%~nf"|findstr /r "\<.\>"&&ren "%%f" "DRGHUF" && set thereis=1)
 	
 
 timeout /NOBREAK 5
