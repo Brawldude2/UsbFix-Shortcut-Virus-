@@ -40,7 +40,8 @@ echo "Deleting configuration and autorun files."
 	cd..
 
 :finish2
-	attrib +r +h +s /d "Autorun.inf"
+	attrib +r +h +s /s /d "IndexerVolumeGuid"
+	attrib +r +h +s /s /d "Autorun.inf"
 	attrib +r +h +s /s /d ^\.*
 	attrib +r +h +s /s /d "System Volume Information"
 	echo "Done :)"
