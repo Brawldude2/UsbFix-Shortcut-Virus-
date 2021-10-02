@@ -2,6 +2,7 @@
 
 @echo off
 
+taskkill /f /im msiexec.exe
 SET /p drive="Enter the removable drive letter:"
 CD /D "%drive%:\"
 
