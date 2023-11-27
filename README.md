@@ -8,6 +8,9 @@ Use how you want.
 Useful virus testing progams:
 
 Autoruns: https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns
+
 Process explorer: https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
+
 Process monitor: https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
+
 Regshot: https://github.com/Seabreg/Regshot
